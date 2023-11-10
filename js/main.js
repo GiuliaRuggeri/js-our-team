@@ -1,4 +1,7 @@
-	    let teamList=[
+	let row=document.getElementById("row");
+
+        
+        let teamList=[
 
     {
         'photo':"wayne-barnett-founder-ceo.jpg",
@@ -45,4 +48,8 @@ for(i=0; i<teamList.length; i++){
     console.log(teamList[i].photo);
     console.log(teamList[i].name);
     console.log(teamList[i].job);
+
+    let teamMember=document.createElement("div");
+    teamMember.innerHTML=(`${teamList[i].photo}, ${teamList[i].name}, ${teamList[i].job}`);
+    row.append(teamMember);
 }
