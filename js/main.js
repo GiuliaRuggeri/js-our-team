@@ -13,7 +13,7 @@
     },
 
     {
-        'photo':" walter-gordon-office-manager.jpg",
+        'photo':"walter-gordon-office-manager.jpg",
         'name': "Walter Gordon",
         'job':"Office Manager",
     },
